@@ -3,7 +3,7 @@ There are around 50 macros in `clojure.core` and to understand what they are doi
 
 `. e m` expands a macro once, the most simple and commonly used command (`cider-macroexpand-1` ).
 
-`, e M` expands until there are no more macros.  Less often there will be layers of macros in the expression, so this will show the code from complete resolution of all macros in the expression (`cider-macroexpand-all`).
+`. e M` expands until there are no more macros.  Less often there will be layers of macros in the expression, so this will show the code from complete resolution of all macros in the expression (`cider-macroexpand-all`).
 
 In this example we expand a simple `defn` macro
 
